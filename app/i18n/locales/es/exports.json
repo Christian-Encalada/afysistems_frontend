@@ -1,0 +1,6 @@
+{
+  "export": "Exportar",
+  "export_to_pdf": "Exportar a PDF",
+  "export_to_excel": "Exportar a Excel",
+  "no_data_to_export": "No hay datos para exportar"
+}

@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "title": "Planifia - Perfil de Usuario",
+        "description": "Visualiza y edita la información de tu perfil de usuario en la plataforma.",
+        "keywords": "perfil de usuario, administración de perfil, configuración de cuenta, información personal"
+      },
+      "change_password": {
+        "title": "Planifia - Cambiar Contraseña",
+        "description": "Actualiza tu contraseña para mantener segura tu cuenta en Planifia.",
+        "keywords": "cambiar contraseña, seguridad de cuenta, actualización de contraseña, gestión de contraseña"
+      }
+}

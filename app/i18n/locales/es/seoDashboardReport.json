@@ -1,0 +1,12 @@
+{
+    "clients": {
+        "title": "Planifia - Reporte de Clientes",
+        "description": "Consulta y analiza los reportes detallados sobre los clientes en la plataforma.",
+        "keywords": "reporte de clientes, análisis de clientes, datos de clientes"
+      },
+    "appointments": {
+        "title": "Planifia - Reporte de Citas",
+        "description": "Visualiza y gestiona los reportes detallados de citas en la plataforma.",
+        "keywords": "reporte de citas, análisis de citas, datos de citas"
+      }
+}

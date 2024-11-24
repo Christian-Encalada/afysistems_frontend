@@ -1,0 +1,13 @@
+{
+    "view": {
+      "title": "Planifia - Client List",
+      "description": "View and manage the complete list of clients in your schedule.",
+      "keywords": "client list, manage clients, administration, contacts"
+    },
+    "manage": {
+      "title": "Planifia - Manage Clients",
+      "description": "Efficiently manage all your clients' information.",
+      "keywords": "manage clients, edit clients, contact management, client info"
+    }
+
+}

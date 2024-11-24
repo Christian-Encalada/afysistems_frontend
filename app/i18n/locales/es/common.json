@@ -1,0 +1,12 @@
+{
+  "title": "Selector Aleatorio de CSV",
+  "description": "Esta aplicación te permite subir un archivo CSV, seleccionar registros aleatorios y mostrar la información de cada registro en un modal.",
+  "loaded_records": "Registros cargados: ",
+  "select_random_record": "Seleccionar Registro Aleatorio",
+  "no_more_records": "No hay más registros disponibles.",
+  "btn_close": "cerrar",
+  "btn_upload": "Drag and drop your CSV file here or click to upload.",
+  "btn_clean": "Remover",
+  "btn_accept": "Aceptar",
+  "pick_color": "Elije un color"
+}

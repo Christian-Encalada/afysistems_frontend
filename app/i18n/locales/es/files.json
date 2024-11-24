@@ -1,0 +1,84 @@
+{
+    "generate_files": "Generar Ficha",
+    "assign_files": "Asignar Ficha",
+    "generate": "Generar Ficha",
+    "form_title": "Título de la Ficha",
+    "form_description": "Descripción de la Ficha",
+    "form_title_placeholder": "Ingrese título de la ficha",
+    "form_description_placeholder": "Ingrese descripción de la ficha",
+    "back_to_list": "Volver a la lista",
+    "question": "Pregunta",
+    "option_1": "Opción 1",
+    "option_2": "Opción 2",
+    "form_created": "Ficha creada",
+    "form_updated": "Ficha actualizada",
+    "filter_by_createdAt": "Seleccionar Fecha",
+    "section_title_placeholder": "Ingrese título de la sección",
+    "add_question": "Agregar Pregunta",
+    "add_section": "Agregar Sección",
+    "section_title": "Título de la Sección",
+    "update": "Actualizar",
+    "create": "Guardar Ficha",
+    "error_loading_form": "Error al cargar la ficha",
+    "titles": {
+        "form_manager": "Administrador de Fichas",
+        "recent_forms": "Fichas recientes",
+        "form_preview": "Vista previa de la ficha"
+    },
+    "question_type": {
+        "short_answer": "Respuesta corta",
+        "number": "Número",
+        "email": "Correo electrónico",
+        "dropdown": "Lista desplegable",
+        "checkboxes": "Casillas de verificación",
+        "create_form": "Crear ficha",
+        "file_upload": "Subir archivo",
+        "date": "Fecha",
+        "section": "Sección"
+      },
+      "placeholder": {
+        "short_answer": "Respuesta corta",
+        "number": "Número",
+        "email": "Correo electrónico",
+        "option": "Opción {{number}}",
+        "question": "Pregunta {{number}}",
+        "date": "Fecha"
+      },
+      "button": {
+        "add_option": "Agregar Opción",
+        "remove": "Eliminar",
+        "duplicate": "Duplicar",
+        "create_form": "Crear ficha",
+        "save" : "Guardar Ficha"
+      },
+      "label": {
+        "required": "Obligatorio"
+      },
+      "labels":{
+        "last_opened": "Última apertura",
+        "preview": "Vista previa",
+        "description": "Descripción"
+      },
+      "messages": {
+        "no_recent_forms": "No hay formularios recientes.",
+        "no_preview_available": "Vista previa no disponible.",
+        "no_description": "Sin descripción",
+        "untitled_form": "Ficha sin título",
+        "form_deleted": "Ficha eliminada",
+        "enter_new_title": "Ingrese un nuevo título",
+        "title_updated": "Título actualizado",
+        "no_answer": "Sin respuesta"
+        
+    },
+    "errors": {
+        "load_forms": "Error al cargar los formularios: {{message}}",
+        "delete_failed": "Error al eliminar la ficha",
+        "update_failed": "Error al actualizar la ficha",
+        "load_form": "Error al cargar la ficha: {{message}}"
+    },
+    "actions": {
+      "edit_title": "Editar Título",
+      "delete": "Eliminar",
+      "open_in_new_tab": "Abrir en nueva pestaña"
+    }
+    }

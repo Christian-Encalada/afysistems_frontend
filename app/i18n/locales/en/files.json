@@ -1,0 +1,84 @@
+{
+    "generate_files": "Generate File",
+    "assign_files": "Assign File",
+    "generate": "Generate File",
+    "form_title": "Form Title",
+    "form_description": "Form Description",
+    "form_title_placeholder": "Enter form title",
+    "form_description_placeholder": "Enter form description",
+    "back_to_list": "Back to list",
+    "question": "Question",
+    "option_1": "Option 1",
+    "option_2": "Option 2",
+    "form_created": "Form created",
+    "form_updated": "Form updated",
+    "update": "Update",
+    "create": "Save Form",
+    "add_question": "Add Question",
+    "section_title_placeholder": "Enter section title",
+    "add_section": "Add Section",
+    "section_title": "Section Title",
+    "filter_by_createdAt": "Select Date",
+    "error_loading_form": "Error loading form",
+    "titles": {
+        "form_manager": "Form Manager",
+        "recent_forms": "Recent Forms",
+        "form_preview": "Form Preview"
+  },
+    "question_type": {
+        "short_answer": "Short answer",
+        "number": "Number",
+        "email": "Email",
+        "dropdown": "Dropdown",
+        "checkboxes": "Checkboxes",
+        "file_upload": "File upload",
+        "date": "Date",
+        "section": "Section"
+      },
+      "placeholder": {
+        "short_answer": "Short answer",
+        "number": "Number",
+        "email": "Email",
+        "option": "Option {{number}}",
+        "question": "Question {{number}}",
+        "date": "Date"
+      },
+      "button": {
+        "add_option": "Add Option",
+        "remove": "Remove",
+        "duplicate": "Duplicate",
+        "create_form": "Create Form",
+        "save" : "Save Form"
+      },
+      "label": {
+        "required": "Required"
+      },
+      "labels":{
+        "last_opened": "Last opened",
+        "preview": "Preview",
+        "description": "Description"
+      },
+      "messages": {
+        "no_recent_forms": "No recent forms available.",
+        "no_preview_available": "Preview not available.",
+        "no_description": "No description",
+        "untitled_form": "Untitled Form",
+        "form_deleted": "Form deleted",
+        "enter_new_title": "Enter new title",
+        "title_updated": "Title updated",
+        "no_answer": "No answer"
+
+    },
+    "errors": {
+        "load_forms": "Error loading forms: {{message}}",
+        "delete_failed": "Error deleting form",
+        "update_failed ": "Error updating form",
+        "load_form": "Error loading form: {{message}}"
+    },
+    "actions":{
+      "edit_title": "Edit Title",
+      "delete": "Delete",
+      "open_in_new_tab": "Open in new tab"
+    }
+      
+    }

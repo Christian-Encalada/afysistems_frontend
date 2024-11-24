@@ -1,0 +1,14 @@
+{
+  "title": "Iniciar sesión - App",
+  "description": "Esta aplicación te permite cargar un archivo CSV, seleccionar registros aleatorios y mostrar la información de cada registro en un modal.",
+  "keywords": "csv, selector, aleatorio, random",
+  "title_form": "Iniciar sesión",
+  "user_form": "Usuario",
+  "pass_form": "Contraseña",
+  "btn_form": "Iniciar Sesión",
+  "forget_pass": "¿Olvidaste tu contraseña?",
+  "error_user": "El usuario es requerido",
+  "error_pass": "La contraseña es requerida",
+  "error_login": "Usuario o contraseña incorrectos",
+  "login_success": "Inicio de sesión exitoso"
+}

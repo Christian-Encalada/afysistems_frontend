@@ -1,0 +1,12 @@
+{
+    "view": {
+        "title": "Planifia - Lista de Clientes",
+        "description": "Consulta y gestiona la lista completa de clientes en tu agenda.",
+        "keywords": "lista de clientes, gestionar clientes, administración, contactos"
+      },
+      "manage": {
+        "title": "Planifia - Administrar Clientes",
+        "description": "Gestiona toda la información de tus clientes de manera eficiente.",
+        "keywords": "administrar clientes, editar clientes, gestión de contactos, información clientes"
+      }
+}

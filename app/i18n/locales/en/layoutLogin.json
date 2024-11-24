@@ -1,0 +1,8 @@
+{
+    "description": "A client page, to demonstrate client side i18n",
+    "title": "Client page",
+    "keywords": "client, page, i18n",
+    "sign_in": "SIGN IN TO PLANIFIA",
+    "welcome_message": "Welcome, We are glad to see you again!",
+    "copy_right": "All Rights Reserved."
+}

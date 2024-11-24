@@ -1,0 +1,8 @@
+{
+  "profile": "Profile",
+  "preferences": "Preferences",
+  "logout": "Logout",
+  "user": "User",
+  "logout_confirmation": "Are you sure you want to log out?",
+  "cancel": "Cancel"
+}

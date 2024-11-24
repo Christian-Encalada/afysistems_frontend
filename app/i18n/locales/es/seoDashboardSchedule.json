@@ -1,0 +1,13 @@
+{
+    "view": {
+      "title": "Planifia - Agenda",
+      "description": "Visualiza y gestiona tus citas en un calendario simple y efectivo.",
+      "keywords": "vista agenda, calendario, citas, horarios"
+
+    },
+    "add": {
+      "title": "Planifia - Agregar Cita",
+      "description": "Crea nuevas citas de forma rápida y sencilla en tu calendario.",
+      "keywords": "crear cita, agendar, reservar, nueva reunión"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "view": {
+        "title": "Planifia - Schedule",
+        "description": "View and manage your appointments in a simple and effective calendar.",
+        "keywords": "schedule view, calendar, appointments, timetable"
+      },
+      "add": {
+        "title": "Planifia - New Appointment",
+        "description": "Create new appointments quickly and easily in your calendar.",
+        "keywords": "create appointment, schedule, book, new meeting"
+      }
+}

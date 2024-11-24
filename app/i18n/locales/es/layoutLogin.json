@@ -1,0 +1,8 @@
+{
+    "description": "Una página de cliente, para demostrar la internacionalización del lado del cliente",
+    "title": "Pagina de cliente",
+    "keywords": "client, page, i18n",
+    "sign_in": "INICIAR SESIÓN EN PLANIFIA",
+    "welcome_message": "¡Bienvenido, nos alegra verte de nuevo!",
+    "copy_right": "Todos los Derechos Reservados."
+}

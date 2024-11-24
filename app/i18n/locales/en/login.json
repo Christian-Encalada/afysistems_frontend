@@ -1,0 +1,14 @@
+{
+  "title": "Login - App",
+  "description": "This application allows you to upload a CSV file, select random records, and display the information of each record in a modal.",
+  "keywords": "csv, random, selector",
+  "title_form": "Login",
+  "user_form": "User",
+  "pass_form": "Password",
+  "btn_form": "Login",
+  "forget_pass": "Forgot your password?",
+  "error_user": "The user is required",
+  "error_pass": "The password is required",
+  "error_login": "Incorrect user or password",
+  "login_success": "Successful login"
+}

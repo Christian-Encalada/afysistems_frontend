@@ -1,0 +1,55 @@
+image: python:3.7.4-alpine3.10
+
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: Build, Tag, and Push to ECR
+          deployment: staging
+          services:
+            - docker
+          caches:
+            - pip
+          script:
+            - echo "NEXT_PUBLIC_BACKEND_URL=${NEXT_PUBLIC_BACKEND_URL}" > .env.local
+            - echo "NEXTAUTH_URL=${NEXTAUTH_URL}" >> .env.local
+            - echo "NEXT_AUTH_JWT_DURATION=${NEXT_AUTH_JWT_DURATION}" >> .env.local
+            - echo "NEXT_ENV=${NEXT_ENV}" >> .env.local
+            - echo "NEXT_PUBLIC_IMAGE_DOMAINS=${NEXT_PUBLIC_IMAGE_DOMAINS}" >> .env.local
+            - pip3 install awscli
+            - aws configure set aws_access_key_id "${AWS_ACCESS_KEY_ID}"
+            - aws configure set aws_secret_access_key "${AWS_SECRET_ACCESS_KEY}"
+            - aws configure set region "${AWS_REGION}"
+            - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ECR_REGISTRY
+            - docker build -f Dockerfile.dev --build-arg ENV_FILE=.env.local -t $AWS_ECR_REPOSITORY .
+            - docker tag $AWS_ECR_REPOSITORY:latest $AWS_ECR_REGISTRY/$AWS_ECR_REPOSITORY:latest
+            - docker images
+            - docker push $AWS_ECR_REGISTRY/$AWS_ECR_REPOSITORY:latest
+
+      - step:
+          name: Deploy to EC2
+          caches:
+            - pip
+          script:
+            - pip3 install awscli
+            - aws configure set aws_access_key_id "${AWS_ACCESS_KEY_ID}"
+            - aws configure set aws_secret_access_key "${AWS_SECRET_ACCESS_KEY}"
+            - aws configure set region "${AWS_REGION}"
+            - >-
+              aws ssm send-command
+              --document-name "AWS-RunShellScript"
+              --targets '[{"Key":"tag:Name","Values":["frontend-planifia"]}]'
+              --parameters 'commands=[
+                "aws configure set aws_access_key_id='${AWS_ACCESS_KEY_ID}'",
+                "aws configure set aws_secret_access_key='${AWS_SECRET_ACCESS_KEY}'",
+                "aws configure set region='${AWS_REGION}'",
+                "aws ecr get-login-password --region '${AWS_REGION}' | docker login --username AWS --password-stdin '${AWS_ECR_REGISTRY}'",
+                "docker stop frontend || true",
+                "docker rm frontend || true",
+                "docker images -a | grep 'planifia' | xargs docker rmi || true",
+                "docker pull '${AWS_ECR_REGISTRY}'/'${AWS_ECR_REPOSITORY}':latest",
+                "docker run -d --name frontend -p 8000:8000 '${AWS_ECR_REGISTRY}'/'${AWS_ECR_REPOSITORY}':latest",
+                "docker exec frontend npm run build",
+                "docker exec frontend npm start"
+              ]'
+              --comment "Deploy new Docker image to EC2"

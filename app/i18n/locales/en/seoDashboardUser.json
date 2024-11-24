@@ -1,0 +1,12 @@
+{
+    "list": {
+      "title": "Planifia - User List",
+      "description": "View and manage the complete list of users on the platform.",
+      "keywords": "user list, user management, account administration"
+    },
+    "manage": {
+      "title": "Planifia - Manage Users",
+      "description": "Efficiently manage user information and permissions.",
+      "keywords": "manage users, edit users, account management, permissions"
+    }
+}

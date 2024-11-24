@@ -1,0 +1,12 @@
+{
+   "profile": {
+      "title": "Planifia - User Profile",
+      "description": "View and edit your user profile information on the platform.",
+      "keywords": "user profile, profile management, account settings, personal information"
+    },
+    "change_password": {
+      "title": "Planifia - Change Password",
+      "description": "Update your password to keep your Planifia account secure.",
+      "keywords": "change password, account security, password update, password management"
+    }
+}

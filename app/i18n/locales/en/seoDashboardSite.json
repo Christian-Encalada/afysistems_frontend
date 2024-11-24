@@ -1,0 +1,12 @@
+{
+    "list": {
+      "title": "Planifia - Site List",
+      "description": "View and manage the complete list of sites on the platform.",
+      "keywords": "site list, site management, location administration"
+    },
+    "manage": {
+      "title": "Planifia - Manage Sites",
+      "description": "Efficiently manage site information and details.",
+      "keywords": "manage sites, edit sites, location management, site details"
+    }
+}

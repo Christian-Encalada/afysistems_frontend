@@ -1,0 +1,5 @@
+{
+  "title": "App",
+  "description": "This application allows you to upload a CSV file, select random records, and display the information of each record in a modal.",
+  "keywords": "csv, random, selector"
+}

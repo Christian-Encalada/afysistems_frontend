@@ -1,0 +1,8 @@
+{
+  "profile": "Perfil",
+  "preferences": "Preferencias",
+  "logout": "Cerrar Sesión",
+  "user": "Usuario",
+  "logout_confirmation": "¿Estás seguro de que quieres cerrar sesión?",
+  "cancel": "Cancelar"
+}

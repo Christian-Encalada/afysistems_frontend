@@ -1,0 +1,12 @@
+{
+    "list": {
+        "title": "Planifia - Lista de Sitios",
+        "description": "Consulta y gestiona la lista completa de sitios en la plataforma.",
+        "keywords": "lista de sitios, gestión de sitios, administración de localizaciones"
+      },
+      "manage": {
+        "title": "Planifia - Administrar Sitios",
+        "description": "Administra la información y detalles de los sitios de forma eficiente.",
+        "keywords": "administrar sitios, editar sitios, gestión de localizaciones, detalles de sitios"
+      }
+}

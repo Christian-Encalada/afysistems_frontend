@@ -1,0 +1,12 @@
+{
+    "clients": {
+      "title": "Planifia - Client Report",
+      "description": "View and analyze detailed reports on clients within the platform.",
+      "keywords": "client report, client analysis, client data"
+    },
+    "appointments": {
+      "title": "Planifia - Appointment Report",
+      "description": "View and manage detailed reports on appointments within the platform.",
+      "keywords": "appointment report, appointment analysis, appointment data"
+    }
+}

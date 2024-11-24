@@ -1,0 +1,12 @@
+{
+    "list": {
+      "title": "Planifia - Lista de Usuarios",
+      "description": "Visualiza y gestiona la lista completa de usuarios en la plataforma.",
+      "keywords": "lista de usuarios, gestión de usuarios, administración de cuentas"
+    },
+    "manage": {
+      "title": "Planifia - Administrar Usuarios",
+      "description": "Gestiona la información y permisos de los usuarios de manera eficiente.",
+      "keywords": "administrar usuarios, editar usuarios, gestión de cuentas, permisos"
+    }
+}
